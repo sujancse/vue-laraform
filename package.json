@@ -1,6 +1,6 @@
 {
   "name": "vue-laraform",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Vue laraform is for handling laravel form submission and error handling.",
   "main": "lib/app.js",
   "scripts": {
