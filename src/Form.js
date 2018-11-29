@@ -103,7 +103,7 @@ class Form {
                     resolve(response.data);
                 })
                 .catch(error => {
-                    this.onFail(error.response.data.errors.errors);
+                    this.onFail(error.response.data.errors);
 
                     reject(error.response.data);
                 });
