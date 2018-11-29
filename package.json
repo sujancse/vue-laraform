@@ -1,0 +1,19 @@
+{
+  "name": "vue-laraform",
+  "version": "1.0.0",
+  "description": "Vue laraform is for handling laravel form submission and error handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujancse/vue-laraform.git"
+  },
+  "author": "Sujan Mahmud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sujancse/vue-laraform/issues"
+  },
+  "homepage": "https://github.com/sujancse/vue-laraform#readme"
+}
