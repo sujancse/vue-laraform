@@ -2,9 +2,9 @@
   "name": "vue-laraform",
   "version": "1.1.0",
   "description": "Vue laraform is for handling laravel form submission and error handling.",
-  "main": "index.js",
+  "main": "lib/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/sujancse/vue-laraform/issues"
   },
-  "homepage": "https://github.com/sujancse/vue-laraform#readme"
+  "homepage": "https://github.com/sujancse/vue-laraform#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
